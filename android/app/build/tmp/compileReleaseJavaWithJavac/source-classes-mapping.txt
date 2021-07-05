@@ -1,0 +1,9 @@
+com/app/MainActivity.java
+ com.app.MainActivity
+com/app/BuildConfig.java
+ com.app.BuildConfig
+com/app/MainApplication.java
+ com.app.MainApplication
+ com.app.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

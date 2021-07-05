@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/App.iml" filepath="$PROJECT_DIR$/.idea/modules/App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/App.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/App.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-309917893/App.lottie-react-native.iml" filepath="$PROJECT_DIR$/.idea/modules/-309917893/App.lottie-react-native.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-703645777/App.react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-703645777/App.react-native-community_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1377265219/App.react-native-community_viewpager.iml" filepath="$PROJECT_DIR$/.idea/modules/1377265219/App.react-native-community_viewpager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-668717077/App.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-668717077/App.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-988645840/App.react-native-orientation-locker.iml" filepath="$PROJECT_DIR$/.idea/modules/-988645840/App.react-native-orientation-locker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1142820599/App.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/-1142820599/App.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2134042571/App.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/2134042571/App.react-native-vector-icons.iml" />
+    </modules>
+  </component>
+</project>

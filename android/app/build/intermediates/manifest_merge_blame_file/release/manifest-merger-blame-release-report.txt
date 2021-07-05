@@ -1,0 +1,91 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="br.com.portaltelemedicina.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:5:5-78
+12-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:6:5-80
+13-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:6:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:7:5-81
+14-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:7:22-78
+15
+16    <application
+16-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:9:5-29:19
+17        android:name="com.app.MainApplication"
+17-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:10:7-38
+18        android:allowBackup="false"
+18-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:14:7-34
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] /Users/xhb/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:18-86
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:12:7-41
+21        android:label="@string/app_name"
+21-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:11:7-39
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:13:7-52
+23        android:theme="@style/AppTheme"
+23-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:16:7-38
+24        android:usesCleartextTraffic="true" >
+24-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:15:7-42
+25        <activity
+25-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:17:7-28:18
+26            android:name="com.app.MainActivity"
+26-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:18:9-37
+27            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+27-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:20:9-86
+28            android:label="@string/app_name"
+28-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:19:9-41
+29            android:launchMode="singleTask"
+29-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:21:9-40
+30            android:windowSoftInputMode="adjustResize" >
+30-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:22:9-51
+31            <intent-filter>
+31-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:23:9-27:25
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:24:13-65
+32-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:24:21-62
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:25:13-73
+34-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:25:23-70
+35
+36                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+36-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:26:13-77
+36-->/Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/android/app/src/main/AndroidManifest.xml:26:21-75
+37            </intent-filter>
+38        </activity>
+39
+40        <provider
+40-->[:react-native-webview] /Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
+41            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+41-->[:react-native-webview] /Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-83
+42            android:authorities="br.com.portaltelemedicina.app.fileprovider"
+42-->[:react-native-webview] /Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-64
+43            android:exported="false"
+43-->[:react-native-webview] /Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+44            android:grantUriPermissions="true" >
+44-->[:react-native-webview] /Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+45            <meta-data
+45-->[:react-native-webview] /Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-19:63
+46                android:name="android.support.FILE_PROVIDER_PATHS"
+46-->[:react-native-webview] /Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:17-67
+47                android:resource="@xml/file_provider_paths" />
+47-->[:react-native-webview] /Users/xhb/Documents/projects/PortalTeleMedicina/mobile-test/App/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:17-60
+48        </provider>
+49    </application>
+50
+51</manifest>
